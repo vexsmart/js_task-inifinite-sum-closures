@@ -7,7 +7,7 @@ function makeAdder() {
   let sum = 0;
 
   function adder(num) {
-    if (num === undefined) {
+    if (arguments.length === 0) {
       const result = sum;
 
       sum = 0;
